@@ -1,0 +1,76 @@
+Questions For viva
+
+1.What is blockchain:
+a. Blockchain is decentralized distributed digital ledger(like a notebook of transactions which is present at each node of network) that keeps a record of transactions in a secure and transparent way. It as a chain of connected blocks, where each block contains information about multiple transactions.
+In easy way blockchain is a decentralized database to store inforamtion which has no single authority.
+b.Each block contains of three parts 
+     1.Hash(hash of that block) 
+     2.Data 
+     3.Hash of Previous block. like that each block is connected to each other.
+c. First block is blockchain is called as Genesis Block which do not has hash of previous block. 
+
+2.Advantages of blockchain
+ 1.decentralized
+ 2.distributed
+ 3.more secure 
+ 4.immutable(not easy to manipulate data)
+ 5.Transparency: Transactions recorded on a blockchain are visible to all participants in the network
+
+3.Disadvantages of blockchain
+ 1.Energy Consumption:-Proof of work requires more computational resorces
+ 2.Complexity: Blockchain technology can be complex to understand and implement.
+ 
+
+4.Types of blockchain
+ -Public Blockchain: Public blockchains are open to anyone.
+ -Private Blockchain: Private blockchains are restricted and controlled by a single organization 
+ -Hybrid blockchain - some part is private , some part is public.
+
+
+5.Examples of blockchain
+ Bitcoin, polygon ,ethereum - These are the blockchains that allows to writing smart contracts and develop decentralised applications(Dapps).
+
+6.What is crptocurrency
+Cryptocurrency is like digital money that exists only on the internet. It's not physical like coins or paper bills; instead, it's made up of code and stored in a digital wallet on your computer or smartphone.
+
+7.What are smart contracts
+  Smart contracts are self-executing contracts with the terms and conditions like in the agreement between buyer and seller.
+  smart contract is nothing but a code which facilitate transactions of money,digital assets direct between peers without the third party
+  Just like  A sending money from your bank account to B . This transaction requires the third party "Bank" for transaction.This is what smart contract eliminates. You can do transaction      without depending on any third party.
+
+8.What is Solidity
+Solidity is a high-level programming language specifically designed for writing smart contracts on blockchain platforms, with a primary focus on Ethereum.
+
+9.What is fallback function
+A fallback function,is the function of smart contracts on blockchainwhich is a default action that a contract can take when it receives a transaction(money) that code doesn't understand or when contract dont now for which function this money has recieved.Example- buying chips and buying biscuit function and someone pays you money without specifying what he wants to buy then you execute fallback function.
+  
+ receive() external payable {
+        // Log that Ether has been received
+        emit FundsReceived(msg.sender, msg.value)
+  
+   receive(): This is a special function used to handle incoming Ether (cryptocurrency) sent to the contract.
+
+  external payable: This is a visibility specifier that indicates that the receive function can be called externally (from outside the contract). The payable keyword signifies that this       function can receive Ether.
+
+  emit FundsReceived(msg.sender, msg.value): 
+  emit: This keyword is used to trigger an event. In Ethereum, events are a way to record data on the blockchain, making it visible to anyone who wants to see it.
+  FundsReceived: This is the name of the event being triggered.
+  (msg.sender, msg.value): These are the two arguments passed to the event. msg.sender is the address of the sender (the person or contract sending the Ether), and msg.value is the amount       of Ether sent with the transaction.
+
+Machine Learning
+1.What is machine learning
+Machine learning is a subset of artificial intelligence (AI) that focuses on developing algorithms and models that teach computers to learn from previous data and make predictions.
+Types of machine Learning:-
+ -Supervised Learning:- the algorithm is trained on a labeled dataset
+ -Unsupervised Learning :-deals with unlabeled data.
+ -SemiSupervised :-Contains some lablled data , and high amount of unlabled data. 
+
+2.What is linear and logistic regression
+Linear Regression:
+Linear regression is used to plot relationship between a dependent variable (usually a continuous numerical value) and one or more independent variables 
+ 
+Logistic Regression:
+Logistic regression estimates the probability of an event occurring, it give value in  0 or 1 specifies whether the particular event will occur or not.
+
+
+
