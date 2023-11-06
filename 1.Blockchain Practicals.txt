@@ -1,9 +1,9 @@
 Blockchain Practicals
 
 
-write a program in solidity to create student data use following constructors
-1.array
-2. fallback
+1.write a program in solidity to create student data use following constructors
+ 1.array
+ 2. fallback
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -43,6 +43,8 @@ contract StudentContract{
      }
 
 }
+
+
 2.Write a program in solidity to create student data . Use Structures  // Same code s above just do not use fallback function
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
